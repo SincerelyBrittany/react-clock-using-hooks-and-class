@@ -15,7 +15,7 @@ export default function Clock(props) {
       }
     }, [])
     //pass into the use Effect an empty array that will make it so that you only call useEfft on mounting
-
+    //the [] acts like the component Unmount
       const handleDelete = (e) => {
         props.handleTheDelete(props.id)
       }
